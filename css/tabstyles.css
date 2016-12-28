@@ -716,7 +716,7 @@
 }
 
 .tabs-style-flip nav a {
-	padding: 0.5em 0;
+
 	color: white;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
@@ -727,7 +727,7 @@
 .tabs-style-flip nav a:focus,
 .tabs-style-flip nav li.tab-current a {
 	color: white;
-	background: #dc6934;
+	background: #df4608;
 }
 
 .tabs-style-flip nav a span {
