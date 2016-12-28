@@ -32,7 +32,7 @@
 }
 
 .tabs-style-bar nav ul li.tab-current a {
-	background: #2CC185;
+	background: white;
 	color: #fff;
 }
 
@@ -41,7 +41,7 @@
 /*****************************/
 
 .tabs-style-iconbox nav {
-	background: rgba(255,255,255,0.4);
+	background: white;
 }
 
 .tabs-style-iconbox nav ul li a {
@@ -88,7 +88,7 @@
 	z-index: -1;
 	width: 1px;
 	height: 60%;
-	background: rgba(0,0,0,0.07);
+	background: white;
 	content: '';
 }
 
