@@ -720,12 +720,14 @@
 	color: white;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
+	background-color: rgba(0,0,0,0.5);
 }
 
 .tabs-style-flip nav a:hover,
 .tabs-style-flip nav a:focus,
 .tabs-style-flip nav li.tab-current a {
 	color: white;
+	background: #dc6934;
 }
 
 .tabs-style-flip nav a span {
@@ -761,7 +763,7 @@
 }
 
 .tabs-style-flip .content-wrap {
-	background: rgba(0, 0, 0, 0.5);
+	background: white;
 }
 
 
