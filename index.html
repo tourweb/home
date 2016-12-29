@@ -177,11 +177,11 @@
                         <li class="visible-xs visible-sm"><a class="navigation__close" data-rmd-action="navigation-close" href="#"><i class="zmdi zmdi-long-arrow-right"></i></a></li>
 
                         <li class="navigation__dropdown">
-                            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                            <a href="index.html"><i class="zmdi zmdi-home"></i> Home</a>
                         </li>
 
                         <li class="navigation__dropdown">
-                            <a href="#" class="prevent-default"><i class="fa fa-map-marker" aria-hidden="true"></i>Destinations</a>
+                            <a href="#" ><i class="zmdi zmdi-pin"></i> Destinations</a>
 
                             <ul class="navigation__drop-menu">
                                 <li><a href="listings-grid.html">Grid view</a></li>
@@ -189,20 +189,21 @@
                                 <li><a href="listings-map.html">Map view</a></li>
                                 <li><a href="listing-detail.html">Listing Detail</a></li>
                             </ul>
+							
                         </li>
 
 
-                        <li class="navigation__dropdown"><a href="submit-property.html">Special Offers</a></li>
+                        <li class="navigation__dropdown"><a href="submit-property.html"><i class="zmdi zmdi-star"></i> Special Offers</a></li>
 
                         <li class="navigation__dropdown">
-                            <a href="mortgage.html">Blog</a>
+                            <a href="mortgage.html" class="icon icon-book"> <i class="zmdi zmdi-book"></i> Blog</a>
 
                            
                         </li>
 
                        
 
-                        <li class="navigation__dropdown"><a href="contact.html">Contact</a></li>
+                        <li class="navigation__dropdown"><a href="contact.html" ><i class="zmdi zmdi-phone"></i> Contact</a></li>
 
                         <li class="navigation__dropdown">
                             <a href="#" class="prevent-default">More</a>
@@ -383,76 +384,7 @@
 					</div><!-- /content -->
 				</div><!-- /tabs -->
 			</section>
-			<!--
-			<div class="card">
-                            <div class="tab-nav tab-nav--justified" data-rmd-breakpoint="650">
-                                <div class="tab-nav__inner"><a class="tab-nav__toggle" data-toggle="dropdown">Overview</a>
-                                    <ul>
-                                        <li class="active"><a href="#profile">Tours</a></li>
-                                        <li><a href="#group">Group Tours</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                      <div class="card__body">
-                       <div class="card__sub">
-                     <form>
-                    <div class="search">
-                        <div class="search__type dropdown">
-                            <a href="#" data-toggle="dropdown">Buy</a>
-
-                            <div class="dropdown-menu">
-                                <div>
-                                    <input type="radio" name="property-type" value="rent">
-                                    <span>Buy</span>
-                                </div>
-                                <div>
-                                    <input type="radio" name="property-type" value="buy">
-                                    <span>Sell</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="search__body">
-                            <input type="text" class="search__input" placeholder="Enter any Neighorhood, Feature, Zip Code" data-rmd-action="advanced-search-open">
-
-                            <div class="search__advanced">
-                                <div class="col-sm-6">
-                                    <div class="form-group form-group--float">
-                                        <input type="text" class="form-control" value="New York, NY">
-                                        <label>Location</label>
-                                        <i class="form-group__bar"></i>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label>Ownership Type</label>
-
-                                        <select class="select2">
-                                            <option value="">Single Family Home</option>
-                                            <option value="">Condo</option>
-                                            <option value="">Townhome</option>
-                                            <option value="">Apartment Community</option>
-                                            <option value="">Room</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            
-                                <div class="col-xs-12 m-t-10">
-                                    <button class="btn btn-primary">Search</button>
-                                    <button class="btn btn-link" data-rmd-action="advanced-search-close">Cancel</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-
-                                    
-                                </div>
-                            </div>
-                        </div>
-               -->
+		
             </div>
 
             <div class="header__recommended">
@@ -823,280 +755,125 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6">
-                        <div class="card">
-                            <div class="card__header card__header--minimal">
-                                <h2>Pellentesque habitant morbi tristique</h2>
-                                <small>Pellentesque habitant morbi tristique senectus et netus et malesuada</small>
-                            </div>
+                    
 
-                            <div class="grid-widget grid-widget--listings">
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="#">
-                                        <img src="img/demo/locations/san_fransisco.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>San Francisco, CA</h4>
-                                            <small>1560 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="#">
-                                        <img src="img/demo/locations/san_jose.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>San Jose, CA</h4>
-                                            <small>1232 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="#">
-                                        <img src="img/demo/locations/denver.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>Denver, CO</h4>
-                                            <small>1103 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="#">
-                                        <img src="img/demo/locations/san_diego.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>San Diego, CA</h4>
-                                            <small>1100 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="#">
-                                        <img src="img/demo/locations/dallas.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>Dallas, TX</h4>
-                                            <small>988 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="#">
-                                        <img src="img/demo/locations/detroit.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>Dallas, TX</h4>
-                                            <small>921 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="#">
-                                        <img src="img/demo/locations/los_angeles.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>Los Angeles, CA</h4>
-                                            <small>888 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="#">
-                                        <img src="img/demo/locations/nashville.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>Nashville, TN</h4>
-                                            <small>743 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="#">
-                                        <img src="img/demo/locations/palm_bay.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>Palm Bay, FL</h4>
-                                            <small>655 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <a class="view-more" href="grid-listings.html">
-                                View all locations <i class="zmdi zmdi-long-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="card">
-                            <div class="card__header card__header--minimal">
-                                <h2>Properties by Agents</h2>
-                                <small>Duis congue placerat libero in tristique dignissim posuere</small>
-                            </div>
-
-                            <div class="grid-widget grid-widget--listings">
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="agent-detail.html">
-                                        <img src="img/demo/people/1.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>David Willson</h4>
-                                            <small>154 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="agent-detail.html">
-                                        <img src="img/demo/people/2.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>Mallinda Hollaway</h4>
-                                            <small>143 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="agent-detail.html">
-                                        <img src="img/demo/people/3.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>Priscilla Erickson</h4>
-                                            <small>121 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="agent-detail.html">
-                                        <img src="img/demo/people/4.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>Randolph Barnett</h4>
-                                            <small>112 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="agent-detail.html">
-                                        <img src="img/demo/people/5.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>Bradford Watson</h4>
-                                            <small>98 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="agent-detail.html">
-                                        <img src="img/demo/people/6.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>Mauris congue ex quis est dictum iaculis</h4>
-                                            <small>83 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="agent-detail.html">
-                                        <img src="img/demo/people/7.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>Mauris congue ex quis est dictum iaculis</h4>
-                                            <small>80 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="agent-detail.html">
-                                        <img src="img/demo/people/8.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>Mauris congue ex quis est dictum iaculis</h4>
-                                            <small>62 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col-xs-4">
-                                    <a class="grid-widget__item" href="agent-detail.html">
-                                        <img src="img/demo/people/9.jpg" alt="">
-
-                                        <div class="grid-widget__info">
-                                            <h4>Mauris congue ex quis est dictum iaculis</h4>
-                                            <small>59 Listings</small>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <a class="view-more" href="agents.html">
-                                View all agents <i class="zmdi zmdi-long-arrow-right"></i>
-                            </a>
-
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>
+		  <section class="section">
+            <div class="container">
+              <header class="section__title">
+                    <h2>Holiday Tour Packages</h2>
+                    <small>We promise you to render perfectly customized tours and indelible experience of the destinations.</small>
+                </header>  
+<style>
+.padding{
+padding-left: 5px;
+    padding-right: 5px;
+}
+</style>
+                <div class="row neighb-guide">
+                    <div class="col-sm-4 padding">
+                        <a href="#" class="neighb-guide__item">
+                            <img src="img/loc/ker.jpg" alt="" height="340">
+                            <div class="neighb-guide__label">Kerala</div>
+                        </a>
+                    </div>
 
+                    <div class="col-sm-8 padding">
+                        <a href="#" class="neighb-guide__item">
+                            <img src="img/loc/dli2.jpg" alt="" height="340">
+                            <div class="neighb-guide__label">Delhi</div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4 padding">
+                        <a href="#" class="neighb-guide__item">
+                            <img src="img/loc/mys.jpg" alt="">
+                            <div class="neighb-guide__label"><span>Bangalore</span></div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4 padding">
+                        <a href="#" class="neighb-guide__item">
+                            <img src="img/loc/hyd.jpg" alt="">
+                            <div class="neighb-guide__label"><span>Hyderabad</span></div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4 padding">
+                        <a href="#" class="neighb-guide__item">
+                            <img src="img/loc/udr.jpg" alt="">
+                            <div class="neighb-guide__label"><span>Udaipur</span></div>
+                        </a>
+                    </div>
+
+                  
+                </div>
+            </div>
+        </section>
+		<section >
+		<img src="https://indiator.com/images/gat-footer.jpg" class="img-responsive">
+		</section>
         <footer id="footer">
             <div class="container hidden-xs">
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <div class="footer__block">
                             <a class="logo clearfix" href="#">
                                 <div class="logo__text">
-                                    <span>Roost</span>
-                                    <span>Material Design Real Estate</span>
+                                    <img class="logo-footer" src="https://indiator.com/images/footer-logo.jpg" alt="logo">
+                                    
                                 </div>
                             </a>
 
                             <address class="m-t-20 m-b-20 f-14">
-                                44-46 Morningside Road,
-                                Edinburgh, Scotland
+                               Address: A-15 , 
+SECTOR-3 , NOIDA , 
+<br>U.P , INDIA- 201301  <br>Email: info@indiator.com 
+
                             </address>
 
-                            <div class="f-20">0062-345678910</div>
-                            <div class="f-14 m-t-5">hello@Roost.com / info@Roost.com</div>
+                            <div class="f-14 m-t-5"> Call Us : + 0091 9871107030 
+ <br>(24 x 7) Support</div>
+                           
 
-                            <div class="f-20 m-t-20">
+                           
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer__block footer__block--blog">
+                            <div class="footer__title">Business and Partnership</div>
+
+                           <a href="https://indiator.com/#" class="white-a" target="blank" style="margin-bottom:0px;">Tour Operators</a>
+                            <a href="https://indiator.com/affiliates.php" class="white-a" target="blank" style="margin-bottom:0px;"> Affiliates</a>
+                            <a href="https://indiator.com/partner.php" class="white-a" target="blank" style="margin-bottom:0px;"> Become a Partner </a>
+                            <a href="https://indiator.com/privacy.php" class="white-a" target="blank" style="margin-bottom:0px;"> Privacy</a>
+                        </div>
+                    </div>
+					<div class="col-sm-3">
+                        <div class="footer__block footer__block--blog">
+                            <div class="footer__title">Indiator</div>
+
+                           <a href="https://indiator.com/about-us.php" class="white-a" target="blank" style="margin-bottom:0px;">About us</a>
+                            <a href="https://indiator.com/media.php" class="white-a" target="blank" style="margin-bottom:0px;">Media</a>
+                            <a href="https://indiator.com/user-agreement.php" class="white-a" target="blank" style="margin-bottom:0px;">User Agreement</a>
+                           <a href="https://indiator.com/terms-and-condition.php" class="white-a" target="blank" style="margin-bottom:0px;">Terms and Condition</a>
+                            <a href="https://indiator.com/careers.php" class="white-a" target="blank" style="margin-bottom:0px;">Careers</a>
+                           <a href="https://indiator.com/pay-online.php" class="white-a" target="blank" style="margin-bottom:0px;">Pay by Credit Card</a>
+                            <a href="https://indiator.com/pay-inr.php" class="white-a" target="blank" style="margin-bottom:0px;">Pay by Net Banking</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer__block">
+                            <div class="footer__title">Social Links</div>
+
+                             <div class="f-20 m-t-20">
                                 <a href="#" class="m-r-10"><i class="zmdi zmdi-google"></i></a>
                                 <a href="#" class="m-r-10"><i class="zmdi zmdi-facebook"></i></a>
                                 <a href="#"><i class="zmdi zmdi-twitter"></i></a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="footer__block footer__block--blog">
-                            <div class="footer__title">Latest from our blog</div>
-
-                            <a href="#">
-                                Aenean lacinia bibendum nulla sed
-                                <small>On 2016/06/20 at 6:00 PM</small>
-                            </a>
-                            <a href="#">
-                                Vestibulum id ligula porta felis euismod semper
-                                <small>On 2016/06/18 at 7:12 PM</small>
-                            </a>
-                            <a href="#">
-                                Etiam porta sem malesuada magna mollis euismod
-                                <small>On 2016/06/10 at 12:59 PM</small>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="footer__block">
-                            <div class="footer__title">Disclaimer</div>
-
-                            <div>Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</div>
                         </div>
                     </div>
                 </div>
