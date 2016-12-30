@@ -16,6 +16,12 @@
   		<script src="js/modernizr.custom.js"></script>
 		
 		
+		<script data-require="angular.js@1.4.0-beta.6" data-semver="1.4.0-beta.6" src="https://code.angularjs.org/1.4.0-beta.6/angular.js"></script>
+		<script src="https://rawgit.com/sagiegurari/HTML5-Desktop-Notifications/master/desktop-notify.js"></script>
+		<script src="https://rawgit.com/sagiegurari/angular-web-notification/master/angular-web-notification.js"></script>
+		<script src="script.js"></script>
+		
+		
         <!-- Material design colors -->
         <link href="vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
 
@@ -43,7 +49,7 @@
 		</script>
    
 
-    <body >
+    <body data-ng-app="exampleApp">
         <!-- Start page loader -->
         <div id="page-loader">
             <div class="page-loader__spinner"></div>
@@ -674,6 +680,8 @@
             </div>
         </header>
 
+		
+		 <button class="show-button"></button>
         <section class="section">
             <div class="container">
                 <header class="section__title">
