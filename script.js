@@ -31,3 +31,11 @@ angular.module('exampleApp', [
         }
     };
 }]);
+
+angular.module('exampleApp', [
+    'angular-web-notification'
+]).controller('pageLoadAppCtrl', ["$scope", function($scope) {
+      $scope.onloadFun = function() {
+        alert(1);
+      }
+    }]);
