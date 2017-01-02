@@ -20,7 +20,15 @@
 		<link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
   		<script src="js/modernizr.custom.js"></script>
 		
+
 		
+		<style>
+		.lazy{
+ max-width: 100%; 
+ height: auto; 
+}		</style>
+
+	
 		<script data-require="angular.js@1.4.0-beta.6" data-semver="1.4.0-beta.6" src="https://code.angularjs.org/1.4.0-beta.6/angular.js"></script>
 		<script src="https://rawgit.com/sagiegurari/HTML5-Desktop-Notifications/master/desktop-notify.js"></script>
 		<script src="https://rawgit.com/sagiegurari/angular-web-notification/master/angular-web-notification.js"></script>
@@ -47,7 +55,7 @@
         <link rel="stylesheet" href="css/app_2.min.css">
 
         <!-- Page Loader JS -->
-        <script src="js/page-loader.min.js" async></script>
+        
 		
 		<script>
 
@@ -67,9 +75,7 @@
 
 </script>
         <!-- Start page loader -->
-        <div id="page-loader" >
-            <div class="page-loader__spinner"></div>
-        </div>
+     
         <!-- End page loader -->
 
         <header id="header" style="background-image:url(img/slider.jpg)">
@@ -244,8 +250,7 @@
                     <div class="listings-grid__item">
                         <a href="https://indiator.com/All-Cities/Day-Trips-and-Excursions/0/3">
                             <div class="listings-grid__main">
-                                <img src="img/cards/day.jpg" alt="">
-                              
+							<img class="lazy" data-original="img/cards/day.jpg" alt="">                      
                             </div>
 
                          
@@ -259,11 +264,9 @@
                     <div class="listings-grid__item">
                         <a href="https://indiator.com/Kerala/Honeymoon-Packages/15/4">
                             <div class="listings-grid__main">
-                                <img src="img/cards/honey.png" alt="">
+                                <img class="lazy" data-original="img/cards/honey.png" alt="">                      
                             </div>
                         </a>
-
-                       
                     </div>
 					
 					
@@ -272,8 +275,7 @@
                     <div class="listings-grid__item">
                         <a href="https://indiator.com/All-Cities/Airport-or-Railway-Transfer/0/6">
                             <div class="listings-grid__main">
-                                <img src="img/cards/biap.png" alt="">
-                             
+                                 <img class="lazy" data-original="img/cards/biap.png" alt="">                      
                             </div>
 
                          
@@ -285,15 +287,16 @@
                     <div class="listings-grid__item">
                         <a href="https://indiator.com/contact">
                             <div class="listings-grid__main">
-                                <img src="img/cards/query.png" alt="">
+							<img class="lazy" data-original="img/cards/query.png" alt="">                      
                             </div>
                         </a>
                     </div>
+					
                     <div class="listings-grid__item">
                         <a href="https://indiator.com/about-us.php">
                             <div class="listings-grid__main">
-                                <img src="img/cards/best.jpg" alt="">
-                      
+							<img class="lazy" data-original="img/cards/best.jpg" alt="">                      
+                                
                             </div>
                         </a>   
                     </div>
@@ -301,8 +304,7 @@
                     <div class="listings-grid__item">
                         <a href="https://indiator.com/All-Cities/Multi-Days-Tours/0/2">
                             <div class="listings-grid__main">
-                                <img src="img/cards/multi.png" alt="">
-                      
+                      <img class="lazy" data-original="img/cards/multi.png" alt="">                      
                             </div>
                         </a>   
                     </div>
@@ -329,8 +331,7 @@
                             <div class="grid-widget grid-widget--listings">
                                 <div class="col-xs-6">
                                     <a class="grid-widget__item" href="https://indiator.com/Kerala/All-Tour-Packages/15/0/">
-                                        <img src="img/kerala.jpg" alt="">
-
+									<img class="lazy" data-original="img/kerala.jpg" alt="">
                                         <div class="grid-widget__info">
                                             <h3>Kerala</h3>
                                             <small>Starts from $29</small>
@@ -339,8 +340,7 @@
                                 </div>
                                 <div class="col-xs-6">
                                     <a class="grid-widget__item" href="https://indiator.com/Bangalore/All-Tour-Packages/9/0">
-                                        <img src="img/bangalore.jpg" alt="">
-
+									<img class="lazy" data-original="img/bangalore.jpg" alt="">
                                         <div class="grid-widget__info">
                                             <h3>Bangalore</h3>
                                             <small>Starts from $49</small>
@@ -349,8 +349,7 @@
                                 </div>
                                 <div class="col-xs-6">
                                     <a class="grid-widget__item" href="https://indiator.com/Udaipur/All-Tour-Packages/56/0">
-                                        <img src="img/rajasthan.jpg" alt="">
-
+									<img class="lazy" data-original="img/rajasthan.jpg" alt="">
                                         <div class="grid-widget__info">
                                             <h3>Rajasthan</h3>
                                             <small>Starts from $29</small>
@@ -359,8 +358,7 @@
                                 </div>
                                 <div class="col-xs-6">
                                     <a class="grid-widget__item" href="https://indiator.com/Hyderabad/All-Tour-Packages/18/0">
-                                        <img src="img/hyderabad.jpg" alt="">
-
+                                 <img class="lazy" data-original="img/hyderabad.jpg" alt="">
                                         <div class="grid-widget__info">
                                             <h3>Hyderabad</h3>
                                             <small>Starts from $29</small>
@@ -385,7 +383,7 @@
                             <div class="grid-widget grid-widget--listings">
                                 <div class="col-xs-6">
                                     <a class="grid-widget__item" href="https://indiator.com/Delhi/All-Tour-Packages/8/0">
-                                        <img src="img/delhi3.jpg" class="img-responsive" alt="">
+									      <img class="lazy img-responsive" data-original="img/delhi3.jpg" alt="">
                                         <div class="grid-widget__info">
                                             <h3>Delhi</h3>
                                             <small>Starts from $24</small>
@@ -394,7 +392,7 @@
                                 </div>
                                 <div class="col-xs-6">
                                     <a class="grid-widget__item" href="https://indiator.com/Agra/All-Tour-Packages/10/0/">
-                                        <img src="img/agra.jpg" alt="">
+										<img class="lazy img-responsive" data-original="img/agra.jpg" alt="">
                                         <div class="grid-widget__info">
                                             <h3>Agra</h3>
                                             <small>Starts from $35</small>
@@ -403,7 +401,7 @@
                                 </div>
                                 <div class="col-xs-6">
                                     <a class="grid-widget__item" href="https://indiator.com/Jaipur/All-Tour-Packages/12/0">
-                                        <img src="img/jaipur2.jpg" alt="">
+										<img class="lazy img-responsive" data-original="img/jaipur2.jpg" alt="">
                                         <div class="grid-widget__info">
                                             <h3>Jaipur</h3>
                                             <small>Starts from $29</small>
@@ -412,7 +410,8 @@
                                 </div>
                                 <div class="col-xs-6">
                                     <a class="grid-widget__item" href="https://indiator.com/Amritsar/All-Tour-Packages/11/0">
-                                        <img src="img/amritsar.jpg" alt="">
+											<img class="lazy img-responsive" data-original="img/amritsar.jpg" alt="">
+                                       
                                         <div class="grid-widget__info">
                                             <h3>Amritsar</h3>
                                             <small>Starts from $24</small>
@@ -436,8 +435,7 @@
 		<div class="row team">
                     <div class="col-md-3 col-sm-6">
                         <div class="team__item">
-                            <img src="img/who.jpg" class="team__img" alt="">
-
+							<img class="lazy team__img" data-original="img/who.jpg" alt="">
                             <div class="team__info">
                                 <h4>Who We Are ?</h4>
                                 
@@ -451,8 +449,7 @@
                     </div>
 					 <div class="col-md-3 col-sm-6">
                         <div class="team__item">
-                            <img src="img/services.jpg" class="team__img" alt="">
-
+							<img class="lazy team__img" data-original="img/services.jpg" alt="">
                             <div class="team__info">
                                 <h4>Best Services</h4>
                                 
@@ -466,14 +463,10 @@
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="team__item">
-                            <img src="img/team.jpg" class="team__img" alt="">
-
+							<img class="lazy team__img" data-original="img/team.jpg" alt="">
                             <div class="team__info">
                                 <h4>Our Team</h4>
-          
-
                                 <p style="text-align:justify;">We have a team of highly inspiring and proficient experts. We promise to provide seamless services to our clients .</p>
-
                             </div>
 
                        
@@ -482,8 +475,7 @@
 
                     <div class="col-md-3 col-sm-6">
                         <div class="team__item">
-                            <img src="img/1-01.jpg" class="team__img" alt="">
-
+							<img class="lazy team__img" data-original="img/1-01.jpg" alt="">
                             <div class="team__info">
                                 <h4>TRUST AND SECURITY</h4>
                       
@@ -515,35 +507,36 @@ padding-left: 5px;
                 <div class="row neighb-guide">
                     <div class="col-sm-4 padding">
                         <a href="https://indiator.com/tourist-places/kerala/" class="neighb-guide__item">
-                            <img src="img/loc/ker.jpg" alt="" height="340">
+							<img class="lazy" data-original="img/loc/ker.jpg" alt="" height="340">
                             <div class="neighb-guide__label">Kerala</div>
                         </a>
                     </div>
 
                     <div class="col-sm-8 padding">
                         <a href="https://indiator.com/tourist-places/delhi/" class="neighb-guide__item">
-                            <img src="img/loc/dli2.jpg" alt="" height="340">
+							<img class="lazy" data-original="img/loc/dli2.jpg" alt="" height="340">
                             <div class="neighb-guide__label">Delhi</div>
                         </a>
                     </div>
 
                     <div class="col-sm-4 padding">
                         <a href="https://indiator.com/tourist-places/bangalore/" class="neighb-guide__item">
-                            <img src="img/loc/mys.jpg" alt="">
+							<img class="lazy" data-original="img/loc/mys.jpg" alt="">
                             <div class="neighb-guide__label"><span>Bangalore</span></div>
                         </a>
                     </div>
 
                     <div class="col-sm-4 padding">
                         <a href="https://indiator.com/tourist-places/hyderabad/" class="neighb-guide__item">
-                            <img src="img/loc/hyd.jpg" alt="">
+							<img class="lazy" data-original="img/loc/hyd.jpg" alt="">
                             <div class="neighb-guide__label"><span>Hyderabad</span></div>
                         </a>
                     </div>
 
                     <div class="col-sm-4 padding">
                         <a href="https://indiator.com/tourist-places/udaipur/" class="neighb-guide__item">
-                            <img src="img/loc/udr.jpg" alt="">
+              
+											<img class="lazy" data-original="img/loc/udr.jpg" alt="">
                             <div class="neighb-guide__label"><span>Udaipur</span></div>
                         </a>
                     </div>
@@ -651,6 +644,11 @@ SECTOR-3 , NOIDA ,
 
         <!-- jQuery -->
         <script src="vendors/bower_components/jquery/dist/jquery.min.js"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+		<script>
+		$("img.lazy").lazyload();
+		</script>
 
         <!-- Bootstrap -->
         <script src="vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
